@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BlueThingyThing
+  m_Shader: {fileID: 4800000, guid: 6e53a9a32eae38a428451993513c7c87, type: 3}
+  m_ShaderKeywords: _ENABLECUTOFF_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CutoffTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: abb84c5fbe6853a4c9fea40b42607df9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _ColorReplTolerance1
+      second: 0
+    - first:
+        name: _ColorReplTolerance2
+      second: 0
+    - first:
+        name: _ColorReplTolerance3
+      second: 0
+    - first:
+        name: _ColorReplTolerance4
+      second: 0
+    - first:
+        name: _ColorReplTolerance5
+      second: 0
+    - first:
+        name: _CutoffFactor
+      second: 1
+    - first:
+        name: _EnableCutoff
+      second: 1
+    - first:
+        name: _EnableCutoffColorization
+      second: 0
+    - first:
+        name: _FadeInStripsHorizontal
+      second: 0
+    - first:
+        name: _FadeInStripsHorizontalProgress
+      second: 0
+    - first:
+        name: _FadeInStripsHorizontalReverse
+      second: 0
+    - first:
+        name: _FadeInStripsHorizontalStrips
+      second: 1
+    - first:
+        name: _FadeInStripsVertical
+      second: 0
+    - first:
+        name: _FadeInStripsVerticalProgress
+      second: 0
+    - first:
+        name: _FadeInStripsVerticalReverse
+      second: 0
+    - first:
+        name: _FadeInStripsVerticalStrips
+      second: 1
+    - first:
+        name: _HAutoScroll
+      second: 0
+    - first:
+        name: _Hue
+      second: 0
+    - first:
+        name: _InvertInput
+      second: 0
+    - first:
+        name: _InvertOutput
+      second: 0
+    - first:
+        name: _LevelsBGamma
+      second: 0.61
+    - first:
+        name: _LevelsBMaxInput
+      second: 255
+    - first:
+        name: _LevelsBMinInput
+      second: 0
+    - first:
+        name: _LevelsCustom1Gamma
+      second: 1
+    - first:
+        name: _LevelsCustom1MaxInput
+      second: 255
+    - first:
+        name: _LevelsCustom1MinInput
+      second: 0
+    - first:
+        name: _LevelsCustom2Gamma
+      second: 1
+    - first:
+        name: _LevelsCustom2MaxInput
+      second: 255
+    - first:
+        name: _LevelsCustom2MinInput
+      second: 0
+    - first:
+        name: _LevelsCustom3Gamma
+      second: 1
+    - first:
+        name: _LevelsCustom3MaxInput
+      second: 255
+    - first:
+        name: _LevelsCustom3MinInput
+      second: 0
+    - first:
+        name: _LevelsGGamma
+      second: 0.42
+    - first:
+        name: _LevelsGMaxInput
+      second: 255
+    - first:
+        name: _LevelsGMinInput
+      second: 64
+    - first:
+        name: _LevelsGamma
+      second: 0.68
+    - first:
+        name: _LevelsMaxInput
+      second: 169
+    - first:
+        name: _LevelsMinInput
+      second: 0
+    - first:
+        name: _LevelsOpacityGradient
+      second: 0
+    - first:
+        name: _LevelsOpacityGradient2
+      second: 0
+    - first:
+        name: _LevelsOpacityGradient3
+      second: 0
+    - first:
+        name: _LevelsOpacityTolerance
+      second: 0
+    - first:
+        name: _LevelsOpacityTolerance2
+      second: 0
+    - first:
+        name: _LevelsOpacityTolerance3
+      second: 0
+    - first:
+        name: _LevelsOpacityValue
+      second: 0
+    - first:
+        name: _LevelsOpacityValue2
+      second: 0
+    - first:
+        name: _LevelsOpacityValue3
+      second: 0
+    - first:
+        name: _LevelsRGamma
+      second: 1.1
+    - first:
+        name: _LevelsRMaxInput
+      second: 255
+    - first:
+        name: _LevelsRMinInput
+      second: 0
+    - first:
+        name: _Luminance
+      second: 0
+    - first:
+        name: _Opacity
+      second: 1
+    - first:
+        name: _Saturation
+      second: 0
+    - first:
+        name: _VAutoScroll
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplSource1
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplSource2
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplSource3
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplSource4
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplSource5
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplTarget1
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplTarget2
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplTarget3
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplTarget4
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorReplTarget5
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Colorize
+      second: {r: 0.45674738, g: 0.9411765, b: 0.9010859, a: 1}
+    - first:
+        name: _CutoffColor15
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _CutoffColor50
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _LevelsCustom1Color
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _LevelsCustom2Color
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _LevelsCustom3Color
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _LevelsOpacitySource
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _LevelsOpacitySource2
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _LevelsOpacitySource3
+      second: {r: 1, g: 1, b: 1, a: 1}
